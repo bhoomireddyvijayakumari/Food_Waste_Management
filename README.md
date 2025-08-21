@@ -18,7 +18,7 @@ This project implements a comprehensive Local Food Wastage Management System tha
   
 2. Database Schema Design
 
-Designed four main tables with proper relationships:
+- Designed four main tables with proper relationships:
 
 providers: Stores information about food donors (restaurants/individuals)
 
@@ -28,9 +28,9 @@ food_listings: Main table tracking available food items with status management
 
 claims: Records transactions between providers and receivers
 
-Implemented foreign key constraints and cascading updates for data integrity
+- Implemented foreign key constraints and cascading updates for data integrity
 
-Used ENUM types for status fields to ensure data consistency
+- Used ENUM types for status fields to ensure data consistency
 
 3. Data Loading and Processing
 
